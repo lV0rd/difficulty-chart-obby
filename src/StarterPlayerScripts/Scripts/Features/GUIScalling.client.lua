@@ -1,4 +1,6 @@
-repeat task.wait() until shared.Loader
+repeat
+	task.wait()
+until shared.Loader
 
 --> Variables
 local Loader = shared.Loader
