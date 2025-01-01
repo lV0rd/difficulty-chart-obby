@@ -191,11 +191,6 @@ function loader.Signal()
 	return Signal.new()
 end
 
-
-function loader.Spring(...)
-	return Spring.new(...)
-end
-
 -- Credit: @loleris
 function loader.NewInstance(class : string, properties : {string : any})
 	local instance = Instance.new(class)
